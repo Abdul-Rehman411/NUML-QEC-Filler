@@ -11,7 +11,7 @@
 - **User-Friendly Interface:** Clean and sleek design with Glassmorphism UI.
 - **GitHub Profile Reference:** Includes a link to the developer’s GitHub profile for easy access to the repository.
 
-![NUML QEC Filler Extension Screenshot](path-to-image.png)
+![NUML QEC Filler Extension Screenshot](qec-filler.jpg)
 
 ---
 

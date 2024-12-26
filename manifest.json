@@ -8,7 +8,7 @@
     "default_popup": "popup.html"
   },
   "icons": {
-    "48": "logo-rs.png",
-    "128": "logo-rs.png"
+    "48": "images/logo-rs.png",
+    "128": "images/logo-rs.png"
   }
 }
