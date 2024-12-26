@@ -23,7 +23,8 @@ To install the extension on your local machine, follow these steps:
      ```bash
      git clone https://github.com/abdul-rehman411/nuql-qec-filler.git
      ```
-   - Or download it as a ZIP file by clicking the green **Code** button and then **Download ZIP**.
+   - Or download it directly as a ZIP file from the following link:  
+     [Download ZIP](https://github.com/Abdul-Rehman411/NUML-QEC-Filler/archive/refs/heads/main.zip)
 
 2. **Extract the ZIP (if downloaded):**
    If you downloaded the ZIP file, extract it to a folder on your machine.
@@ -46,6 +47,10 @@ To install the extension on your local machine, follow these steps:
 
 2. **Click on the Extension Icon:**
    - Once you're on the QEC page, click on the **NUML QEC Filler** extension icon located in the top-right corner of your Chrome browser. This will activate the extension on the current page.
+   
+   If you haven't installed the extension yet, you can download and install it directly from here:  
+   
+   [![Download](https://img.shields.io/badge/Download-%20%20%20%20-green?style=for-the-badge)](https://github.com/Abdul-Rehman411/NUML-QEC-Filler/archive/refs/heads/main.zip)
 
 3. **Automatic Data Fetch:**
    - The extension will automatically fetch the relevant course and teacher details from the current webpage, so you don't need to manually enter any information.
@@ -77,7 +82,7 @@ If you found this extension helpful, please consider **starring** the repository
 
 ## Author Contact
 - **Name:** Abdul Rehman
-- **GitHub:** [https://github.com/abdul-rehman411](https://github.com/abdul-rehman411])
+- **GitHub:** [https://github.com/abdul-rehman411](https://github.com/abdul-rehman411)
 
 ## Disclaimer
 
