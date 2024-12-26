@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "NUML QEC Filler",
+  "version": "1.0",
+  "description": "Automatically fill NUML QEC forms with custom feedback",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "logo-rs.png",
+    "128": "logo-rs.png"
+  }
+}

@@ -1,0 +1,59 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>NUML QEC Filler</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+    <div class="glass-container">
+      <div class="header">
+        <button id="helpBtn" class="help-button">?</button>
+
+        <div class="logo">
+
+          <img class="logo" src="logo-rs.png">
+        </div>
+        <h1>NUML QEC Filler</h1>
+      </div>
+
+      <div class="info-section">
+        <div class="info-item">
+          <label>Teacher:</label>
+          <span id="teacherName">Loading...</span>
+        </div>
+        <div class="info-item">
+          <label>Course:</label>
+          <span id="courseName">Loading...</span>
+        </div>
+      </div>
+
+      <div class="feedback-section">
+        
+        <div class="rating">
+          <i class="fa-solid fa-star star" data-rating="1"></i>
+          <i class="fa-solid fa-star star" data-rating="2"></i>
+          <i class="fa-solid fa-star star" data-rating="3"></i>
+          <i class="fa-solid fa-star star" data-rating="4"></i> 
+          <i class="fa-solid fa-star star" data-rating="5"></i>
+        </div>
+        <textarea id="commentBox" placeholder="Your feedback ..."></textarea>
+      </div>
+
+      <div class="buttons">
+        <button id="generateBtn" class="glass-btn">Auto Comment</button>
+        <button id="fillBtn" class="glass-btn">Fill Form</button>
+      </div>
+
+      <div class="github-section">
+        <a href="https://github.com/Abdul-Rehman411" target="_blank" class="github-link">
+          <i class="fa-brands fa-github"></i>
+          <span>Created with <i class="fa-solid fa-heart heart-icon"></i> by Abdul Rehman</span>
+        </a>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+
+  </html>

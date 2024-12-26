@@ -1,0 +1,261 @@
+:root {
+  --glass-bg: rgba(255, 255, 255, 0.9);
+  --glass-border: rgba(255, 255, 255, 0.95);
+  --primary-gradient: linear-gradient(135deg, #1e293b, #0f172a);
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --accent-color: #3b82f6;
+  --accent-hover: #2563eb;
+  --star-inactive: #475569;
+  --star-active: #eab308;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  width: 340px;
+  margin: 0;
+  padding: 14px;
+  font-family: var(--font-sans);
+  background: var(--primary-gradient);
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+.glass-container {
+  background: rgba(30, 41, 59, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 
+    0 4px 6px -1px rgba(0, 0, 0, 0.2),
+    0 2px 4px -1px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 74px;
+  height: 74px;
+  background: transparent;
+  border-radius: 8px;
+  color: white;
+  margin-right: 5px;
+  margin-left: 3px;
+}
+
+
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.info-section {
+  margin-bottom: 16px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  font-size: 0.875rem;
+}
+#teacherName {
+  margin-left: 4px;
+}
+#courseName {
+  margin-left: 4px;
+}
+.info-item label {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.feedback-section {
+  margin-bottom: 16px;
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 85px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-primary);
+  resize: none;
+  margin-bottom: 12px;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: var(--accent-color);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+textarea::placeholder {
+  color: var(--text-secondary);
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.star {
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--star-inactive);
+  transition: all 0.2s ease;
+}
+
+.star:hover {
+  transform: scale(1.1);
+}
+
+.star.active {
+  color: var(--star-active);
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.glass-btn {
+  flex: 1;
+  padding: 8px 12px;
+  background: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.glass-btn:hover {
+  background: var(--accent-hover);
+  transform: translateY(-1px);
+}
+
+.glass-btn:active {
+  transform: translateY(0);
+}
+
+.github-section {
+  text-align: center;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.75rem;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.github-link:hover {
+  color: var(--text-primary);
+}
+
+.github-link i {
+  font-size: 14px;
+}
+
+.heart-icon {
+  color: #ad4343;
+  transition: color 0.2s ease;
+}
+
+.github-link:hover .heart-icon {
+  color: #fc0505;
+}
+
+
+textarea::-webkit-scrollbar {
+  width: 10px; 
+  height: 8px;
+}
+
+
+textarea::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1); 
+  border-radius: 6px; 
+}
+
+
+textarea::-webkit-scrollbar-thumb {
+  background: var(--accent-color); 
+  border-radius: 4px; 
+  transition: background-color 0.3s ease; 
+}
+
+
+textarea::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-hover); 
+}
+
+.help-button {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  background-color: rgba(255, 255, 255, 0.044);
+  border: 2px solid #f8f9faa1;
+  color: #ffffffd1;
+  font-size: 18px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  line-height: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 9999; 
+}
+
+.help-tooltip {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.1); 
+  border-radius: 12px;
+  width: 280px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 9998;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
